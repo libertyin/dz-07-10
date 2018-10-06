@@ -1,0 +1,210 @@
+
+@font-face {
+    font-family: 'museo_sans_rounded100';
+    src: url('../fonts/museosansrounded-100-webfont.woff2') format('woff2'),
+         url('../fonts/museosansrounded-100-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+
+    font-family: 'museo_sans_rounded100';
+    font-size: 14px;
+    background-image: url(../img/Layer\ 5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+}
+
+.grid {
+
+    width: 780px;
+    margin: 0 auto;
+}
+
+/* Product-card-img */
+
+.product-card {
+
+    display: table;
+    margin-top: 110px;
+    width: 100%;
+    background-color: #111a28;
+    border-radius: 10px;
+}
+
+.product-card__gallery {
+
+    display: table-cell;
+
+}
+
+.product-card__description {
+
+    display: table-cell;
+    width: 300px;
+}
+
+.product-card__logo {
+
+    display: block;
+    margin: 25px 21px;
+
+}
+
+.product-card__img {
+
+    padding: 65px 35px 75px;
+    
+}
+
+.product-card__slider {
+
+    text-align: center;
+    margin-bottom: 20px;
+}
+.product-card__slider a {
+
+    display: inline-block;
+    padding: 5px;
+    margin-right: 3px;
+    border-radius: 50%;
+}
+
+.product-card__slider--active {
+
+    position: relative;
+    top: 2px;
+    background-color: #1f273f;
+    border: 2px solid #7b8188;
+}
+
+.product-card__slider a:nth-child(2) {
+
+    background-color: #fff;
+
+}
+
+.product-card__slider a:nth-child(3) {
+
+    background-color: #ed3333;
+
+}
+
+.product-card__slider a:nth-child(4) {
+
+    background-color: #29e3ea;
+
+}
+
+/* End Product-card-img */
+
+/* Product-description */
+
+.product-card__description {
+
+    color: #72757b;
+
+}
+
+
+.description__title {
+
+    margin-bottom: 10px;
+    font-size: 24px;
+    line-height: 26px;
+    color: #e1e1e1;
+}
+
+.description__title span {
+
+    display: block;
+}
+
+.description__text {
+
+    font-size: 14px;
+    line-height: 26px;
+}
+
+.description__stars {
+
+    margin-top: 24px;
+    font-size: 0;
+}
+
+.description__item {
+
+    display: inline-block;
+    margin-right: 3px;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.description__item i {
+
+    color: #9da1a6;
+}
+
+.description__item--active i {
+
+    color: #f7bf16;
+
+}
+
+.description__options {
+
+
+    margin: 30px 0;
+
+}
+
+.description__options select {
+
+    width: 70px;
+    height: 32px;
+    cursor: pointer;
+    text-align: center;
+    border: 1px solid #72757b;
+    background-color: #111a28;
+    font-size: 14px;
+    color: #72757b;
+
+}
+
+.description__options select:focus {
+
+    outline: 0;
+    color: #fff;
+}
+
+.description__btn button {
+
+    width: 185px;
+    height: 40px;
+    cursor: pointer;
+    background-color: #202835;
+    border: 1px solid #72757b;
+    font-size: 14px;
+    color: #72757b;
+}
+
+.description__btn button:hover {
+
+    background-color: #111a28;
+    color: #fff;
+}
+
+.description__btn button:focus {
+
+    outline: 0;
+}
+
+
+/* End Product-description */
